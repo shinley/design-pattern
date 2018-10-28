@@ -28,6 +28,7 @@ hs_err_pid*
 
 # IntelliJ project files
 .idea
+.idea/*
 *.iml
 /**/*.iml
 out
@@ -43,3 +44,4 @@ buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
 
+/.idea/

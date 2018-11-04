@@ -1,4 +1,9 @@
 package com.shinley.designpattern.abstractfactory;
 
-public class AbstractFactory {
+public abstract class AbstractFactory {
+    public abstract Vehicle createVehicle();
+
+    public abstract Weapon createWeapon();
+
+    public abstract Food creteFood();
 }

@@ -1,9 +1,19 @@
 package com.shinley.designpattern.abstractfactory;
 
-public class MagicFactory {
-    public Broom createBoom() {
+public class MagicFactory extends AbstractFactory{
+
+    @Override
+    public Vehicle createVehicle() {
         return new Broom();
     }
 
-    public Magi
+    @Override
+    public Weapon createWeapon() {
+        return new MagicStick();
+    }
+
+    @Override
+    public Food creteFood() {
+        return new Mushroom();
+    }
 }

@@ -2,13 +2,14 @@ package com.shinley.designpattern.abstractfactory;
 
 public class Test {
     public static void main(String[] args) {
-        DefaultFactory factory = new DefaultFactory();
-        Car c =factory.createCar();
-        c.run();
-        AK47 ak = factory.createAK47();
-        ak.shoot();
+        AbstractFactory factory = new DefaultFactory();
+//        AbstractFactory factory = new MagicFactory();
+        Vehicle v =factory.createVehicle();
+        v.run();
+        Weapon weapon = factory.createWeapon();
+        weapon.shoot();
 
-        Apple a = factory.createApple();
-        a.printName();
+        Food food = factory.creteFood();
+        food.printName();
     }
 }

@@ -1,16 +1,19 @@
 package com.shinley.designpattern.abstractfactory;
 
-public class DefaultFactory {
-    public Car createCar() {
+public class DefaultFactory extends AbstractFactory{
+
+    @Override
+    public Vehicle createVehicle() {
         return new Car();
     }
 
-    public AK47 createAK47() {
+    @Override
+    public Weapon createWeapon() {
         return new AK47();
     }
 
-    public Apple createApple() {
+    @Override
+    public Food creteFood() {
         return new Apple();
     }
-
 }

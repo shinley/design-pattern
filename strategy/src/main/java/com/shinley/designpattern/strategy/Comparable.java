@@ -1,4 +1,4 @@
-package com.shinley.designpattern.stragety;
+package com.shinley.designpattern.strategy;
 
 public interface Comparable {
     int compareTo(Object o);

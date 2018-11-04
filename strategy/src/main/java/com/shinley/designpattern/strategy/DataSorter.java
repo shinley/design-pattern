@@ -1,4 +1,4 @@
-package com.shinley.designpattern.stragety;
+package com.shinley.designpattern.strategy;
 
 public class DataSorter {
 

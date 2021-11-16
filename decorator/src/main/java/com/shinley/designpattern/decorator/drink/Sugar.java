@@ -1,18 +1,17 @@
 package com.shinley.designpattern.decorator.drink;
 
-public class RedBean extends Decorator{
-
-    public RedBean(Drink drink) {
+public class Sugar extends Decorator{
+    public Sugar(Drink drink) {
         super(drink);
     }
 
     @Override
     public double money() {
-        return super.money() + 3.2;
+        return super.money() + 2.1;
     }
 
     @Override
     public String desc() {
-        return super.desc() + "+ 红豆";
+        return super.desc() + "+糖";
     }
 }

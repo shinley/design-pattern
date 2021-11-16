@@ -5,6 +5,7 @@ public interface Drink {
 
     // 价格
     double money();
+
     // 品种描述
     String desc();
 }

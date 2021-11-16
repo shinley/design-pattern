@@ -1,0 +1,4 @@
+- Drink 抽象组件
+- Decorator 被装饰器
+- Soya 被装饰者
+- RedBean 装饰组件， 使用红豆装饰豆浆

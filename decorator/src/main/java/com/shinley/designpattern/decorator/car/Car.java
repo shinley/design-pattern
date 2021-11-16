@@ -1,4 +1,4 @@
-package com.shinley.designpattern.decorator;
+package com.shinley.designpattern.decorator.car;
 
 /**
  * 具体构件对象

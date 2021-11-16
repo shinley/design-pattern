@@ -1,4 +1,4 @@
-package com.shinley.designpattern.decorator;
+package com.shinley.designpattern.decorator.car;
 
 public class FlyCar extends  SuperCar{
 
